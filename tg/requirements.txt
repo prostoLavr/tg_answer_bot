@@ -1,0 +1,5 @@
+pyTelegramBotAPI
+schedule
+loguru
+asyncio
+aiohttp

@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  tg:
+    build: ./tg
+    restart: always
+    environment:
+      PYTHONUNBUFFERED: 1
+    env_file:
+      - "./tg/.variables.env"
+
